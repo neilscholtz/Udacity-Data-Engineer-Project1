@@ -1,7 +1,5 @@
 # Udacity-Data-Engineer-Project1
-Data Modelling with Postgres
-
-# Sparkify Data Modeling
+# Data Modelling with Postgres
 
 ## Background
 
@@ -9,7 +7,7 @@ In this project, a ficticous company, Sparkify, requested to create a structued 
 - Song data
 - User activity
 
-This data is stored in JSON files.
+This data is stored in JSON files and can be located in the 'data' folder. 
 
 ## Key requirements
 
