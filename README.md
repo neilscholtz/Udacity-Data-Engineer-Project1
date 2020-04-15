@@ -1,6 +1,12 @@
-# Udacity-Data-Engineer-Project1
-# Data Modelling with Postgres
+# Data Modelling with Postgres 
+### Udacity Data Engineering Project
+
 ![Image of Postgres](img/postgres.jpeg)
+
+# Quickstart
+1. Update the 'setup.cfg' file to include database credentials
+2. Run the 'create_tables.py' file
+3. Run the 'etl.py' file
 
 ## Background
 
@@ -10,7 +16,7 @@ In this project, a ficticous company, Sparkify, requested to create a structued 
 
 This data is stored in JSON files and can be located in the 'data' folder. 
 
-## Key requirements
+## Project Goal
 
 The main goal of the analytics team is to be able to analyze what songs users are listening to.
 
@@ -30,8 +36,3 @@ It was decided that a star schema built around the user activity, would be best 
 - time (determine what trends were relating to when their service was being used)
 
 This strucuture would allow better understanding not only of the songs most listened to, but also who their users where, what artists were in demand and how often users are interacting with their service.
-
-# Usage
-
-Step 1: Run the create_tables.py file
-Step 2: Run the etl.py file
