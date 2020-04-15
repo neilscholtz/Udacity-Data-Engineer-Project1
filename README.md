@@ -1,5 +1,6 @@
 # Udacity-Data-Engineer-Project1
 # Data Modelling with Postgres
+![Image of Postgres](img/postgres.jpeg)
 
 ## Background
 
@@ -16,6 +17,8 @@ The main goal of the analytics team is to be able to analyze what songs users ar
 ## Suggested Database Design
 
 It was decided that a star schema built around the user activity, would be best suited.
+
+![Image of Starschema](img/database_model.png)
 
 ### Fact Table
 - songplays (user activity)
